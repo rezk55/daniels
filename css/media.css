@@ -1,0 +1,63 @@
+:root {
+    --mainColor: #343434;
+    --secondColor: #1C1C1C;
+    --bgColor: #f7f7f7;
+}
+
+@media (max-width:992px){
+
+    #about .text-about {
+        margin-top: 50px ;
+    }
+}
+
+@media (max-width:767px){
+
+    /* navbar  */
+    nav {
+        background-color: transparent;
+    }
+
+    nav #navbarSupportedContent {
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        margin-inline: -15px;
+    }
+
+    nav #navbarSupportedContent ul li {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav #navbarSupportedContent ul li .active {
+        color: var(--secondColor) !important;
+    }
+
+    nav #navbarSupportedContent ul li .active::after{
+        background-color: var(--secondColor);
+    }
+
+    nav #navbarSupportedContent ul li a {
+        color: var(--secondColor);
+        width:max-content;
+    }
+    /***********************************/
+
+    /* home  */
+    #home .caption {
+        width: 100% !important;
+    }
+
+
+    /* about  */
+    .container, .container-sm {
+        max-width: 745px ;
+    }
+}
+
+
+@media (max-width:576px){
+    
+}
